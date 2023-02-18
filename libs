@@ -1753,8 +1753,12 @@ function OrionLib:MakeWindow(WindowConfig)
 	--		writefile("NewLibraryNotification1.txt","The value for the notification having been sent to you.")
 	--	end
 	--end
+	
+
+	
 	return TabFunction
 end   
+
 function OrionLib:Destroy()
 	Orion:Destroy()
 end
